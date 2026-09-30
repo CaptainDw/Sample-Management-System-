@@ -1,0 +1,67 @@
+{
+  "samples": [
+    {
+      "id": "sample1",
+      "machineName": "测试机种",
+      "productModel": "TEST-001",
+      "productName": "测试样品",
+      "productCode": "PCODE001",
+      "managementMethod": "normal",
+      "status": "available"
+    },
+    {
+      "id": "sample2",
+      "machineName": "开发机种",
+      "productModel": "DEV-002",
+      "productName": "开发样品",
+      "productCode": "PCODE002",
+      "managementMethod": "normal",
+      "status": "available"
+    }
+  ],
+  "borrowRecords": [
+    {
+      "id": "borrow1",
+      "sampleId": "sample1",
+      "borrowerName": "测试用户",
+      "borrowDate": "2024-01-01",
+      "expectedReturnDate": "2024-01-15",
+      "status": "pending",
+      "borrowReason": "测试用途"
+    },
+    {
+      "id": "borrow2",
+      "sampleId": "sample2",
+      "borrowerName": "测试用户2",
+      "borrowDate": "2024-01-02",
+      "expectedReturnDate": "2024-01-16",
+      "status": "borrowed",
+      "borrowReason": "开发测试"
+    },
+    {
+      "id": "borrow3",
+      "sampleId": "sample1",
+      "borrowerName": "测试用户3",
+      "borrowDate": "2024-01-03",
+      "expectedReturnDate": "2024-01-17",
+      "status": "rejected",
+      "borrowReason": "测试拒绝"
+    }
+  ],
+  "users": [
+    {
+      "id": "user1",
+      "username": "测试用户",
+      "password": "123456",
+      "role": "user",
+      "phone": "13800138000"
+    },
+    {
+      "id": "user2",
+      "username": "测试用户2",
+      "password": "123456",
+      "role": "user",
+      "phone": "13800138001"
+    }
+  ]
+}

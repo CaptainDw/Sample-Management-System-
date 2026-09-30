@@ -1,4 +1,3 @@
-[README.md](https://github.com/user-attachments/files/32837331/README.md)
 # 研发样品管理系统
 
 一套面向研发团队的轻量级资源管理系统，用于统一管理样品、资产、工装和在制板卡，并提供用户审批、借用归还、数据看板以及 Excel 导入导出功能。
